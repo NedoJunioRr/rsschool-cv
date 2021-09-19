@@ -14,7 +14,7 @@ I want to learn the javascript programming language and maybe someday, I will be
 - Basic HTML&CSS.
 - Basic JS.
 
-### Education
+### Education:
 
 - Incomplete higher education
 
