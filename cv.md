@@ -5,7 +5,7 @@
 - E-mail: rrefereezzz@gmail.com
 - Phone: +37533*014*25.
 
-### Summary
+### Summary:
 
 I want to learn the javascript programming language and maybe someday, I will be able to call myself a web developer.
 
