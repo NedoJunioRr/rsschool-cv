@@ -1,1 +1,1 @@
-# rsschool-cv
+https://NedoJunioRr.github.io/rsschool-cv/cv
