@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <a href="" class="header-logo"></a>
+        <div class="header_menu menu"></div>
+          <div class="menu__icon">
+            <span></span>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li><a data-to=".private_content" href="#" class="menu__link">Info</a></li>
+              <li><a data-to=".skills" href="#" class="menu__link">Skills</a></li>
+              <li><a data-to=".summary" href="#" class="menu__link">Summary</a></li>
+              <li><a data-to=".education" href="#" class="menu__link">Education</a></li>
+              <li><a data-to=".english" href="#" class="menu__link">English</a></li>
+              <li><a data-to=".codes" href="#" class="menu__link">Code examples</a></li>
+              <li><a data-to=".experience" href="#" class="menu__link">Experience</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="wrapper">
+        <div class="main-content">
+          <section class="private_content">
+            <h1>Igor Demianenko</h1>
+            <figure class="main-photo">
+              <img src="./img/photo.jpg" alt="photo" />
+            </figure>
+            <div class="header-contact">
+              <h2>Contact Info</h2>
+              <ul class="header-contact-info">
+                <li>E-mail: rrefereezzz@gmail.com</li>
+                <li>Phone: +3753301425</li>
+              </ul>
+            </div>
+          </section>
+          <section class="skills">
+            <h3>Skills :</h3>
+            <ul class="skills-table">
+              <li>- Basic HTML&CSS</li>
+              <li>- Basic JS</li>
+            </ul>
+          </section>
+          <section class="summary">
+            <h3>Summary:</h3>
+            <p class="summary-text">
+              I want to learn the javascript programming language and maybe
+              someday, I will be able to call myself a web developer.
+            </p>
+          </section>
+          <section class="education">
+            <h4>Education:</h4>
+            <p>Incomplete higher education</p>
+          </section>
+          <section class="english">
+            <h4>English:</h4>
+            <p>level: A-2</p>
+          </section>
+          <section class="codes">
+            <h5>Code examples</h5>
+            <p class="html">   
+              function deepCount(a){ let count = 0; for(let elem of a){
+              if(Array.isArray(elem)){ // count+=1 count+=deepCount(elem) }
+              count+=1 } return count }   
+            </p>
+          </section>
+          <section class="experience">
+            <h5>Experience</h5>
+            <a href="https://nedojuniorr.github.io/rsschool-cv/cv"><img width="50px" height="50px" src='./img/project.jpg'alt="project"></a>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-wrap">
+          <div class="footer-question">
+            <h3>For communication</h3>
+          </div>
+          <div class="footer-telegram">
+            <a class="telegram" href="https://t.me/referee1448">
+              <img src="./img/tlg.png" alt="telegram-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
