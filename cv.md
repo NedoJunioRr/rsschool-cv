@@ -3,25 +3,34 @@
 ### Contact Info:
 
 - E-mail: rrefereezzz@gmail.com
-- Phone: +37533*014*25.
+- discord: Referee#9012
 
 ### Summary:
 
-I want to learn the javascript programming language and maybe someday, I will be able to call myself a web developer.
+I am unemployed. I want to become a programmer. Maybe back-end, maybe front-end. I don't know yet.
+
+### Experience:
+
+2021 - Present
+Started learning html, css, js from April
 
 ### Skills:
 
 - Basic HTML&CSS.
 - Basic JS.
 
-### Education:
+### Education: 
 
-- Incomplete higher education
+Online learning: 
+03.2021-06.2021, Htmlacademy.ru
+06.2021-PresentCode.mu,learn.javascript.ru
+Full time education
+2009-2012 Professional technical colledge
+2012-2014 Belarusian National Technical University
 
-### English:
+###English:
 
-- level: A-2
+Pre-intermediate(A2)
 
-### Code examples.
 
-### No experience.
+
