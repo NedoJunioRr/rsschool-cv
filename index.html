@@ -1,118 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css"> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</head>
+<body>
     <header class="header">
-      <div class="header__container">
-        <a href="" class="header-logo"></a>
-        <div class="header_menu menu"></div>
-        <div class="menu__icon">
-          <span></span>
-        </div>
-        <nav class="menu__body">
-          <ul class="menu__list">
-            <li>
-              <a data-to=".private_content" href="#" class="menu__link">Info</a>
-            </li>
-            <li><a data-to=".skills" href="#" class="menu__link">Skills</a></li>
-            <li>
-              <a data-to=".summary" href="#" class="menu__link">Summary</a>
-            </li>
-            <li>
-              <a data-to=".education" href="#" class="menu__link">Education</a>
-            </li>
-            <li>
-              <a data-to=".english" href="#" class="menu__link">English</a>
-            </li>
-            <li>
-              <a data-to=".codes" href="#" class="menu__link">Code examples</a>
-            </li>
-            <li>
-              <a data-to=".experience" href="#" class="menu__link"
-                >Experience</a
-              >
-            </li>
-          </ul>
+        <div class="header_logo"><img src="./img/logo.png" alt="logo"></div>
+        <nav>
+        <ul class="header__nav">
+                <li class="header_list_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">Skills</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">Summary</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">Experience</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">Portfolio</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">Code</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">Education</a></li>
+                <li class="header_list_item"><a href="" class="nav_link">English</a></li>
+        </ul>
         </nav>
-      </div>
     </header>
-    <main class="main-container">
-      <div class="wrapper">
-        <div class="main-content">
-          <section class="private_content">
-            <h1>Igor Demianenko</h1>
-            <figure class="main-photo">
-              <img src="./img/photo.jpg" alt="photo" />
-            </figure>
-            <div class="header-contact">
-              <h2>Contact Info</h2>
-              <ul class="header-contact-info">
-                <li>E-mail: rrefereezzz@gmail.com</li>
-                <li>Phone: +3753301425</li>
-              </ul>
+    <main>
+        <aside>
+        <section id="contacts">
+            <div class="contacts__main">
+                <div class="contacts__content">
+                    <span class="contacts_photo">
+                        <img src="./img/main.jpg" alt="main">
+                    </span>
+                    <h1>Igor Demianenko</h1>
+                </div>
+                <div class="contacts__links">
+                    <h2 class="bordered">Contacts</h2>
+                    <ul class="contacts__nav">
+                        <li class="contacts__nav_link"><a href="https://github.com/NedoJunioRr"><img src="./img/svg/github.svg" alt="git"><span>NedoJuniorr</span></a></li>
+                        <li class="contacts__nav_link"><img src="./img/svg/discord.svg" alt="discord"><span>Referee#9012</span></li>
+                    </ul>
+                </div>
             </div>
-          </section>
-          <section class="skills">
-            <h3>Skills :</h3>
-            <ul class="skills-table">
-              <li>- Basic HTML&CSS</li>
-              <li>- Basic JS</li>
-            </ul>
-          </section>
-          <section class="summary">
-            <h3>Summary:</h3>
-            <p class="summary-text">
-              I want to learn the javascript programming language and maybe
-              someday, I will be able to call myself a web developer.
-            </p>
-          </section>
-          <section class="education">
-            <h4>Education:</h4>
-            <p>Incomplete higher education</p>
-          </section>
-          <section class="english">
-            <h4>English:</h4>
-            <p>level: A-2</p>
-          </section>
-          <section class="codes">
-            <h5>Code examples</h5>
-            <p class="html">
-              function deepCount(a){ let count = 0; for(let elem of a){
-              if(Array.isArray(elem)){ // count+=1 count+=deepCount(elem) }
-              count+=1 } return count }
-            </p>
-          </section>
-          <section class="experience">
-            <h5>Experience</h5>
-            <a href="https://nedojuniorr.github.io/rsschool-cv/cv"
-              ><img class="img-project" src="./img/project.jpg" alt="project"
-            /></a>
-          </section>
+        </section>
+        <section id="skills">
+            <div class="skills_main">
+                <h2 class="bordered">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills_list_new">HTML<span class="skills__list_box xhtml"></span></li>
+                    <li class="skills_list_new">CSS<span class="skills__list_box css"></span></li>
+                    <li class="skills_list_new">JS<span class="skills__list_box js"></span></li>
+                </ul>
+            </div>
+        </section>
+        </aside>
+        <div class="main_container">
+            <section class="summary">
+                <h2 class="bordered">Summary</h2>
+                <div class="summary_description">
+                    I am unemployed. I want to become a programmer. Maybe back-end, maybe front-end. I don't know yet.
+                </div>
+            </section>
+            <section class="experience">
+                <h2 class="bordered">Experience</h2>
+                <div class="experience_desc">
+                    <div class="experience_name">
+                        2021 - Present
+                    </div>
+                    <div class="experience_text">
+                        Started learning html, css, js from April
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <div class="portfolio_text">
+                    <h2 class="bordered">Portfolio</h2>
+                </div>
+                <div class="portfolio__block">
+                    <a href="https://rolling-scopes-school.github.io/nedojuniorr-JSFE2021Q3/museum/">
+                    <div class="portfolio_img">
+                        <img src="./img/museum.png" alt="museum">
+                    </div>
+                    <div class="portfolio_desc">
+                        <span>Title: Museum;</span>
+                        <span>Description: study project;</span>
+                        <span>Tools: Html, Css;</span>
+                    </div>
+                    </a>
+                    <a href="https://rolling-scopes-school.github.io/nedojuniorr-JSFEPRESCHOOL/Portfolio/">
+                        <div class="portfolio_img">
+                            <img src="./img/portfolio.png" width="50" height="50" alt="portfolio">
+                        </div>
+                        <div class="portfolio_desc">
+                            <span>Title: Portfolio;</span>
+                            <span>Description: study project;</span>
+                            <span>Tools: Html, Css, JS;</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="education">
+                <h2 class="bordered">Education</h2>
+                <div class="education__online">
+                    <h3>Online learning</h3>
+                    <div class="education__block">
+                        <div class="education_date">03.2021-06.2021</div>
+                        <div class="education_desc">Htmlacademy.ru</div>
+                    </div>
+                    <div class="education__block">
+                        <div class="education_date">06.2021-Present</div>
+                        <div class="education_desc"><span>Code.mu,</span><span>learn.javascript.ru</span></div>
+                    </div>
+                </div>
+                <div class="education__time">
+                    <div class="education__full">
+                        <h3>Full time education</h3>
+                            <div class="education__block">
+                                <div class="education_date">2009-2012</div>
+                                <div class="education_desc">Professional technical colledge</div>
+                            </div>
+                            <div class="education__block">
+                                <div class="education_date">2012-2014</div>
+                                <div class="education_desc">
+                                    Belarusian National Technical University
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <section class="сode">
+                <div class="code__desc">
+                       <pre>
+                        <code class="javascript hljs">
+                            function add(num1, num2) {
+                              let n1 = String(num1).split('').reverse();
+                              let n2 =  String(num2).split('').reverse();
+                              let sum = [];
+                              let a = Math.max(n1.length,n2.length);
+                              for(let i = 0; i < a; i++){
+                                sum.push((~~n1[i] + ~~n2[i]))
+                              }
+                              return +sum.reverse().join('')
+                            }
+                        </code>
+                        </pre>
+                </div>
+            </section>
+            <section class="english">
+                <div class="english__desc">
+                    <h2 class="bordered">English</h2>
+                    <div class="english_text">
+                        Pre-intermediate(A2)
+                    </div>
+                </div>
+            </section>
+
         </div>
-      </div>
     </main>
-    <footer class="footer">
-      <div class="wrapper">
-        <div class="footer-wrap">
-          <div class="footer-question">
-            <h3>For communication</h3>
-          </div>
-          <div class="footer-telegram">
-            <a class="telegram" href="https://t.me/referee1448">
-              <img src="./img/tlg.png" alt="telegram-img" />
-            </a>
-            <a class="github" href="https://github.com/NedoJunioRr">
-              <img src="./img/git.png" alt="git-img" />
-            </a>
-          </div>
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/NedoJunioRr" class="footer_name">Igor Demianenko</a>
+            <a href="https://rs.school/js-stage0/" class="footer_link"><img src="img/svg/rs_school_js.svg" alt="rs"/></a>
         </div>
-      </div>
     </footer>
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
