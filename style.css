@@ -82,7 +82,6 @@ main{
 
 nav{
     display: flex;
-
 }
 .header__nav{
     display: flex;
@@ -162,7 +161,6 @@ nav{
     background-color:#eee5e9;
 }
 
-
 code{
     font-size: 2rem;
 }
@@ -174,7 +172,6 @@ h1{
     padding: 2.5rem;
     white-space: nowrap;
 }
-
 
 .contacts_photo{
     padding: 5rem 5rem 2rem 5rem;
@@ -267,7 +264,6 @@ h1{
 
 .experience{
     padding: 2rem 1rem 3rem 7rem;
-
 }
 .experience_desc{
     display: flex;
@@ -275,7 +271,6 @@ h1{
     padding-top: 3rem;
     font-size: 3rem;
     padding-left: 7rem;
-
 
 }
 
@@ -401,7 +396,6 @@ h1{
     align-self: center;
     color: rgb(36, 64, 64 );
 }
-
 
 .footer_link img{
     width:5rem;
