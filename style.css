@@ -29,7 +29,6 @@ li{
 h2{
     font-size:4rem;
     margin-left: 7rem;
-    border: ;
 }
 
 .skills_main h2{
@@ -65,7 +64,8 @@ main{
     display: flex;
     justify-content: space-between;
     width: 144rem;
-    background-color: brown;
+    background-color: #d0b7c2;
+    padding: 2rem 5rem;
 }
 
 .header__menu{
@@ -93,12 +93,16 @@ nav{
 
 .nav_link{
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.8rem;
+}
+
+.header_list_item a{
+    color: black;
 }
 
 .header_list_item a:hover{
-    color:orange;
-    transition: 0.5s;
+    color:#b39700;
+    transition: 1s;
 }
 
 
@@ -165,7 +169,7 @@ code{
 }
 h1{
     font-size: 4rem;
-    padding: 3rem;
+    padding: 2.5rem;
     white-space: nowrap;
 }
 
@@ -295,6 +299,8 @@ h1{
 }
 .portfolio__block{
     padding: 2rem 1rem 3rem 7rem;
+    display: flex;
+    gap: 5rem;
 }
 .portfolio_desc{
     display: flex;
@@ -375,7 +381,7 @@ h1{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    background-color: #ECB830;
+    background-color: #d0b7c2;
     padding-left: 12rem;
     padding-right: 12rem;
 }
